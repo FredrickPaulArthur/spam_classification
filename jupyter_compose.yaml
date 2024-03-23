@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  jupyter-notebook:
+    build:
+      context: .
+      dockerfile: D:\spam_classification\app\Dockerfile
+      # ports:
+      #   -8888:8888 
+      # validating D:\spam_classification\app\jupyter_compose.yaml: services.jupyter-notebook.build Additional property ports is not allowed
